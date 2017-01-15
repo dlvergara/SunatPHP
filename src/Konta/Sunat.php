@@ -13,7 +13,7 @@ class Sunat {
 	 */
 	function __construct() {
 		$this->path = dirname ( __FILE__ );
-		$this->cc = new cURL ( true, 'http://www.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias', $this->path . DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'data'.DIRECTORY_SEPARATOR.'cookies.txt' );
+		$this->cc = new cURL ( true, 'http://www.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias', $this->path . DIRECTORY_SEPARATOR.'..'. DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'data'.DIRECTORY_SEPARATOR.'cookies.txt' );
 	}
 	
 	/**

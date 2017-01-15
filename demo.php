@@ -1,6 +1,5 @@
 <?php
-	require ("src/cURL.php");
-	require ("src/Sunat.php");
+	require ("src/autoload.php");
 
     use Konta\Sunat;
     
