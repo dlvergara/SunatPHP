@@ -1,4 +1,6 @@
 <?php
+namespace Konta;
+
 class cURL {
 	var $headers;
 	var $user_agent;

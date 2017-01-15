@@ -1,4 +1,7 @@
 <?php
+namespace Konta;
+
+use Konta\cURL;
 
 class Sunat {
 	
