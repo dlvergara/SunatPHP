@@ -1,0 +1,15 @@
+{
+    "name": "dvergara/sunat_php",
+    "description": "SUNAT simple curl php",
+    "keywords": ["curl", "sunat", "basic", "php"],
+    "homepage": "http://www.konta.pe/",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.4.0"
+    },
+    "scripts": {
+        "serve": "php -S 0.0.0.0:8080 -t / demo.php"
+    }
+}

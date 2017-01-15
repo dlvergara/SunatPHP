@@ -1,5 +1,5 @@
-# SUNAT PERU
-Clase php para consultar los datos de la web de [Sunat PerÃº]
+# PHP CONSULTA SUNAT CURL - PHP
+Clase php para consultar los datos de la web de [Sunat Perú]
 ### Metodo de Uso
 ```sh
 <?php
