@@ -1,13 +1,13 @@
 {
     "name": "konta/sunat",
-    "description": "SUNAT simple curl php",
+    "description": "Realiza consultas a SUNAT Perú desde PHP",
     "keywords": ["curl", "sunat", "basic", "php"],
     "homepage": "http://www.konta.pe/",
     "type": "project",
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
-		"php": ">=5.4.0"
+		"php": "^5.4.0 || ^7.0"
     },
     "scripts": {
         "serve": "php -S 0.0.0.0:8080 -t / demo.php"

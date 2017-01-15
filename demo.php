@@ -1,6 +1,9 @@
 <?php
-    require ("curl.php");
-    require ("sunat.php");
+	require ("src/cURL.php");
+	require ("src/Sunat.php");
+
+    use Konta\Sunat;
+    
     $cliente = new Sunat();
     $ruc="20601743044";
     header('Content-Type: application/json');

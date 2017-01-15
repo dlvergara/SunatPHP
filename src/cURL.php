@@ -19,7 +19,8 @@ class cURL {
 		return $this->info;
 	}
 	
-	function cURL($cookies = TRUE, $referer = 'http://www.google.com', $cookie = 'cookies.txt', $compression = 'gzip,deflate', $proxy = '') {
+	public function __construct($cookies = TRUE, $referer = 'http://www.google.com', $cookie = 'cookies.txt', $compression = 'gzip,deflate', $proxy = '') {
+		
 		$this->headers [0] = "Accept-Encoding: gzip, deflate, sdch";
 		$this->headers [] = "Accept-Language: es-419,es;q=0.8";
 		$this->headers [] = "User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36";
